@@ -58,7 +58,7 @@ int main()
 
   
   cm = 0.01723 * readUltrasonicDistance(7);
-  m = cm/100;
+  //m = cm/100;
   Serial.begin(9600);
  //Serial.println(cm);
    while(1)
